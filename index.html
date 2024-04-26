@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <meta http-equiv = "X-UA-Compatible" content = "ie = edge">
+        <link rel = "stylesheet" href = "style.css">
+        <title>Игра "Змейка"</title>
+    </head>
+    <body class = "game">
+        <header class = "header">
+            <div class = "game-score">
+                <p>Total score</p>
+                <div class = "total-score"></div>
+            </div>
+            <div class = "game-score">
+                <p>Best score</p>
+                <div class = "best-score">
+                    <button>Reset</button>
+                </div>
+            </div>
+        </header>
+        <div class = "game-field" id = "field"></div>
+        <footer class = "footer">
+            <button class = "footer-button" id = "start-game">Play/pause</button>
+            <button class = "footer-button">Start new game</button>
+        </footer>
+        <script src = snake.js></script>
+    </body>
+</html>
